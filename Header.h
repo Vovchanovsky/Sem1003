@@ -20,7 +20,7 @@ public:
 	virtual void Interface();
 };
 
-class Journal : protected Pupil
+class Journal : private Pupil
 {
 public:
 	virtual void Interface();
